@@ -3,7 +3,7 @@ import React from 'react';
 
 const CTASection: React.FC = () => {
   return (
-    <section id="cta-final" className="bg-red-900 py-24 relative overflow-hidden">
+    <section id="final-cta" className="bg-red-900 py-24 relative overflow-hidden">
       {/* Texture background effect */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="w-full h-full" style={{ backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
@@ -42,7 +42,7 @@ const CTASection: React.FC = () => {
           <div className="flex justify-center items-center gap-8 mt-4">
              <div className="flex -space-x-3">
                 {[1,2,3,4].map(i => (
-                    <img key={i} src={`https://picsum.photos/seed/${i+10}/100/100`} className="w-12 h-12 rounded-full border-2 border-red-900 object-cover" />
+                    <img key={i} src={`https://picsum.photos/seed/${i+10}/100/100`} className="w-12 h-12 rounded-full border-2 border-red-900 object-cover" alt="User Avatar" />
                 ))}
              </div>
              <p className="text-red-100 text-sm font-medium">+1.247 mulheres já confirmadas</p>

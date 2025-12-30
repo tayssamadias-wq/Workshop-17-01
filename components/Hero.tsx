@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   const scrollToCTA = () => {
-    document.getElementById('cta-final')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('final-cta')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (

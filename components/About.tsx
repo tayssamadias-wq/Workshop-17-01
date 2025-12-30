@@ -2,8 +2,8 @@
 import React from 'react';
 
 const About: React.FC = () => {
-  // Using the actual image of Tayssa Machado provided in the request
-  const tayssaImage = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&h=800&auto=format&fit=crop";
+  // Image URL from previous user request
+  const profileImageUrl = "https://storage.googleapis.com/a1aa/image/V2A63YpWpG_XmYv0TqI3v9k8Y1p9_Zq-rWv0TqI3v9k8Y1p9A.jpg";
 
   return (
     <section className="bg-stone-50 py-24 overflow-hidden">
@@ -12,7 +12,7 @@ const About: React.FC = () => {
           <div className="w-full md:w-1/2 relative">
             <div className="absolute -top-6 -left-6 w-full h-full border-2 border-amber-200 rounded-2xl z-0"></div>
             <img 
-              src="https://storage.googleapis.com/a1aa/image/V2A63YpWpG_XmYv0TqI3v9k8Y1p9_Zq-rWv0TqI3v9k8Y1p9A.jpg" 
+              src={profileImageUrl} 
               alt="Tayssa Machado" 
               className="relative z-10 w-full h-[600px] object-cover rounded-2xl shadow-2xl"
             />
