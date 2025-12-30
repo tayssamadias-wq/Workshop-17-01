@@ -2,8 +2,8 @@
 import React from 'react';
 
 const About: React.FC = () => {
-  // Image URL from previous user request
-  const profileImageUrl = "https://storage.googleapis.com/a1aa/image/V2A63YpWpG_XmYv0TqI3v9k8Y1p9_Zq-rWv0TqI3v9k8Y1p9A.jpg";
+  // New profile image URL provided by the user
+  const profileImageUrl = "https://i.ibb.co/QvjqfBzk/Design-sem-nome-9.png";
 
   return (
     <section className="bg-stone-50 py-24 overflow-hidden">
