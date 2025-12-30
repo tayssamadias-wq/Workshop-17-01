@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const CTASection: React.FC = () => {
@@ -25,11 +24,12 @@ const CTASection: React.FC = () => {
               Toque no botão abaixo e entre no <span className="text-amber-300 font-bold uppercase">Grupo VIP do WhatsApp</span> para receber o link de acesso e um presente exclusivo de boas-vindas.
             </p>
 
+            {/* LINK DO WHATSAPP INSERIDO ABAIXO */}
             <a 
-              href="https://wa.me/yourlink" 
+              href="https://chat.whatsapp.com/KOMHnt9nSM91yRWWmqcw1S" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-amber-400 hover:bg-amber-300 text-red-950 font-black py-6 px-12 rounded-full text-xl md:text-2xl transition-all shadow-2xl animate-pulse-gold uppercase"
+              className="inline-block bg-amber-400 hover:bg-amber-300 text-red-950 font-black py-6 px-12 rounded-full text-xl md:text-2xl transition-all shadow-2xl animate-pulse-gold uppercase cursor-pointer"
             >
               GARANTIR MEU LUGAR GRATUITAMENTE
             </a>
@@ -41,9 +41,9 @@ const CTASection: React.FC = () => {
           
           <div className="flex justify-center items-center gap-8 mt-4">
              <div className="flex -space-x-3">
-                {[1,2,3,4].map(i => (
-                    <img key={i} src={`https://picsum.photos/seed/${i+10}/100/100`} className="w-12 h-12 rounded-full border-2 border-red-900 object-cover" alt="User Avatar" />
-                ))}
+               {[1,2,3,4].map(i => (
+                   <img key={i} src={`https://picsum.photos/seed/${i+10}/100/100`} className="w-12 h-12 rounded-full border-2 border-red-900 object-cover" alt="User Avatar" />
+               ))}
              </div>
              <p className="text-red-100 text-sm font-medium">+1.247 mulheres já confirmadas</p>
           </div>
