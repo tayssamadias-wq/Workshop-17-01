@@ -1,6 +1,11 @@
+
 import React from 'react';
 
 const Hero: React.FC = () => {
+  const scrollToCTA = () => {
+    document.getElementById('final-cta')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="relative overflow-hidden bg-white pt-16 pb-20 lg:pt-24 lg:pb-32">
       {/* Decorative background elements */}
@@ -43,15 +48,12 @@ const Hero: React.FC = () => {
               </span>
             </div>
 
-            {/* Link CORRIGIDO para o WhatsApp */}
-            <a 
-              href="https://chat.whatsapp.com/KOMHnt9nSM91yRWWmqcw1S"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-red-800 hover:bg-red-900 text-white font-bold py-5 px-10 rounded-full text-xl transition-all transform hover:scale-105 shadow-xl inline-block text-center cursor-pointer"
+            <button 
+              onClick={scrollToCTA}
+              className="bg-red-800 hover:bg-red-900 text-white font-bold py-5 px-10 rounded-full text-xl transition-all transform hover:scale-105 shadow-xl"
             >
               QUERO RECUPERAR MEU LUGAR
-            </a>
+            </button>
           </div>
         </div>
       </div>
