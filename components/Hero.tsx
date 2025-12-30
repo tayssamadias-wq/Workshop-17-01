@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
               </span>
             </div>
 
-            {/* AQUI ESTÁ A MUDANÇA: Link direto para o WhatsApp */}
+            {/* Link CORRIGIDO para o WhatsApp */}
             <a 
               href="https://chat.whatsapp.com/KOMHnt9nSM91yRWWmqcw1S"
               target="_blank"
