@@ -3,7 +3,6 @@ import React from 'react';
 const CTASection: React.FC = () => {
   return (
     <section id="final-cta" className="bg-red-900 py-24 relative overflow-hidden">
-      {/* Texture background effect */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="w-full h-full" style={{ backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
       </div>
@@ -24,7 +23,6 @@ const CTASection: React.FC = () => {
               Toque no botão abaixo e entre no <span className="text-amber-300 font-bold uppercase">Grupo VIP do WhatsApp</span> para receber o link de acesso e um presente exclusivo de boas-vindas.
             </p>
 
-            {/* LINK DO WHATSAPP INSERIDO ABAIXO */}
             <a 
               href="https://chat.whatsapp.com/KOMHnt9nSM91yRWWmqcw1S" 
               target="_blank" 
