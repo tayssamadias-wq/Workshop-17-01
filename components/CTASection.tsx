@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const CTASection: React.FC = () => {
@@ -26,7 +25,7 @@ const CTASection: React.FC = () => {
             </p>
 
             <a 
-              href="https://wa.me/yourlink" 
+              href="https://chat.whatsapp.com/KOMHnt9nSM91yRWWmqcw1S" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-amber-400 hover:bg-amber-300 text-red-950 font-black py-6 px-12 rounded-full text-xl md:text-2xl transition-all shadow-2xl animate-pulse-gold uppercase"
